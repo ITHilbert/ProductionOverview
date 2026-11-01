@@ -44,4 +44,4 @@ Nutzt dieselben Produktivitätsdaten wie das Gebäude-Detailfenster. Kann jederz
 Like the mod? A voluntary donation is welcome: https://paypal.me/JoergHilbert
 Gefällt dir die Mod? Über eine freiwillige Spende freue ich mich: https://paypal.me/JoergHilbert
 
-License: MIT · Source: (GitHub link)
+License: MIT · Source: https://github.com/ITHilbert/ProductionOverview
