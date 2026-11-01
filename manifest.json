@@ -1,0 +1,19 @@
+{
+	"id": "ProductionOverview",
+	"version": "1.0.0",
+	"display_name": "Production Overview",
+	"description_short": "Lists all production buildings with their efficiency. Click a building to fly there.",
+	"description_long": "<b>Production Overview</b>\n\nOne window that lists every production building (machines, research labs, generators, sorting plants, ...) with its productivity, the main reason it is not working and its current state.\n\n- Open it from the toolbar or with <b>F9</b>.\n- Sorted by worst efficiency first, so you instantly see the bottlenecks.\n- Pick the time range: current month, last month, last 3 or 12 months.\n- Filter by name and by efficiency threshold, hide paused buildings and buildings that only wait because their output is full.\n- Auxiliary buildings (smoke stacks, flares, burners, ocean dumps) are hidden automatically.\n- <i>By type</i> tab: average efficiency per building type; untick a type (e.g. cooling towers) to exclude it.\n- Hover a row to highlight the building on the map, click it to fly there and open its inspector.\n\nUses the same productivity statistics as the building inspector. Can be added to or removed from a save at any time.\n\nFree mod. Voluntary donations: paypal.me/JoergHilbert",
+	"authors": [
+		"Jörg Hilbert"
+	],
+	"min_game_version": "0.8.7",
+	"max_verified_game_version": "0.8.7",
+	"primary_dlls": [
+		"ProductionOverview.dll"
+	],
+	"non_locking_dll_load": true,
+	"can_add_to_saved_game": true,
+	"can_remove_from_saved_game": true,
+	"primary_mod_class_name": "ProductionOverview.ProductionOverviewMod"
+}

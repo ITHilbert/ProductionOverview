@@ -1,0 +1,8 @@
+1.0.0 (2026-11-01)
+- First release.
+- List of all production buildings with productivity, main reason for downtime and current state.
+- Time range: current month, last month, last 3 or 12 months.
+- Filters: name/type, efficiency threshold, hide paused, hide "output full", hide auxiliary buildings.
+- "By type" tab with average per building type; checkbox per type to exclude it (e.g. cooling towers).
+- Hover highlights the building on the map, click flies there and opens its inspector.
+- English and German.
