@@ -33,8 +33,7 @@ public sealed class ProductionOverviewController : IToolbarItemController, IUnit
 	{
 		m_window = window;
 		m_context = context;
-		toolbar.AddMainMenuButton(Tr.WindowTitle, this, ICON, 1450f,
-			(ShortcutsManager _) => KeyBindings.FromKey(KbCategory.Windows, ShortcutMode.Game, KeyCode.F9));
+		toolbar.AddMainMenuButton(Tr.WindowTitle, this, ICON, 1450f, ProductionOverviewMod.ToggleShortcut);
 		m_window.OnCloseStart += onWindowClose;
 		VisibilityChanged?.Invoke(this);
 	}

@@ -1,3 +1,7 @@
+1.0.1 (2026-11-02)
+- Updated for game version 0.8.8 (new key-binding system; no longer runs on 0.8.7).
+- The hotkey now appears in the game's key-binding settings and can be changed there.
+
 1.0.0 (2026-11-01)
 - First release.
 - List of all production buildings with productivity, main reason for downtime and current state.
